@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — 收听世界各国的实时广播",
+    "description": "转动地球仪，选择一个国家，实时收听当地电台。数千个电台，190多个国家，一张互动地图。"
+  },
+  "nav": {
+    "live": "直播",
+    "favorites": "收藏",
+    "about": "关于"
+  },
+  "player": {
+    "play": "播放",
+    "pause": "暂停",
+    "volume": "音量",
+    "favorite": "加入收藏",
+    "close": "停止并关闭播放器",
+    "settings": "播放器设置"
+  },
+  "globe": {
+    "heroTitle": "广播，一个星球一个国家",
+    "heroSubtitle": "{countries} 个国家正在实时广播 — 点击标记即可收听",
+    "stationCount": "{count} 个电台",
+    "cta": "浏览电台 →"
+  },
+  "country": {
+    "metaTitle": "{country} 实时广播电台 — 免费在线收听",
+    "metaDescription": "实时收听来自{country}的广播。浏览所有从{country}播出的在线电台，在浏览器中免费收听。",
+    "breadcrumbHome": "首页",
+    "heading": "{country}的广播电台",
+    "subheading": "目前有 {count} 个电台正在直播"
+  },
+  "genre": {
+    "metaTitle": "{genre}广播电台 — 在线实时收听",
+    "metaDescription": "在浏览器中免费实时收听来自世界各地的{genre}广播电台。",
+    "breadcrumbHome": "首页",
+    "heading": "{genre}广播",
+    "subheading": "该类别共有 {count} 个电台"
+  },
+  "station": {
+    "play": "播放",
+    "pause": "暂停"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — 实时收听来自{country}的广播",
+    "metaDescription": "在线收听{station}，实时来自{country}。免费直播，无需下载。{genre}",
+    "breadcrumbHome": "首页",
+    "description": "{station}实时从{country}播出。无需下载或注册，直接在浏览器中免费收听。",
+    "unknownLocation": "未公开地点",
+    "visitHomepage": "访问电台网站 ↗"
+  },
+  "mix": {
+    "metaTitle": "{genre}精选混合 — 精选电台流",
+    "metaDescription": "精心挑选的{genre}电台流合集，在浏览器中免费收听。",
+    "breadcrumbHome": "首页",
+    "heading": "{genre}精选",
+    "subheading": "{count}个精选电台流",
+    "source": "精选自 m3u-radio-music-playlists 社区档案"
+  }
+}

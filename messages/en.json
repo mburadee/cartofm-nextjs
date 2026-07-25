@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — Listen to live radio from every country on Earth",
+    "description": "Spin the globe, pick a country, and stream its radio stations live. Thousands of stations, 190+ countries, one interactive map."
+  },
+  "nav": {
+    "live": "LIVE",
+    "favorites": "Favorites",
+    "about": "About"
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "volume": "Volume",
+    "favorite": "Add to favorites",
+    "close": "Stop and close player",
+    "settings": "Player settings"
+  },
+  "globe": {
+    "heroTitle": "Radio, one planet at a time",
+    "heroSubtitle": "{countries} countries broadcasting live right now — click a marker to listen",
+    "stationCount": "{count, plural, one {# station} other {# stations}}",
+    "cta": "Explore stations →"
+  },
+  "country": {
+    "metaTitle": "Live Radio Stations in {country} — Listen Free Online",
+    "metaDescription": "Stream live radio from {country}. Browse every online station broadcasting from {country} and tune in free, right in your browser.",
+    "breadcrumbHome": "Home",
+    "heading": "Radio stations in {country}",
+    "subheading": "{count, plural, one {# live station} other {# live stations}} broadcasting now"
+  },
+  "genre": {
+    "metaTitle": "{genre} Radio Stations — Listen Live Online",
+    "metaDescription": "Stream {genre} radio stations from around the world, live and free in your browser.",
+    "breadcrumbHome": "Home",
+    "heading": "{genre} radio",
+    "subheading": "{count, plural, one {# station} other {# stations}} in this genre"
+  },
+  "station": {
+    "play": "Play",
+    "pause": "Pause"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — Listen Live from {country}",
+    "metaDescription": "Listen to {station} online, live from {country}. Free streaming, no download required. {genre}",
+    "breadcrumbHome": "Home",
+    "description": "{station} broadcasts live from {country}. Tune in for free, streaming directly in your browser with no downloads or sign-up required.",
+    "unknownLocation": "an undisclosed location",
+    "visitHomepage": "Visit station website ↗"
+  },
+  "mix": {
+    "metaTitle": "{genre} Mix — Curated Streams",
+    "metaDescription": "A hand-picked {genre} stream mix, free to listen right in your browser.",
+    "breadcrumbHome": "Home",
+    "heading": "{genre} mix",
+    "subheading": "{count} curated streams",
+    "source": "Curated from the m3u-radio-music-playlists community archive"
+  }
+}

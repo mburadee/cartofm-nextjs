@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — استمع إلى الراديو المباشر من كل دولة في العالم",
+    "description": "أدر الكرة الأرضية، اختر دولة، واستمع إلى محطاتها الإذاعية مباشرة. آلاف المحطات، أكثر من 190 دولة، خريطة تفاعلية واحدة."
+  },
+  "nav": {
+    "live": "مباشر",
+    "favorites": "المفضلة",
+    "about": "حول"
+  },
+  "player": {
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "volume": "مستوى الصوت",
+    "favorite": "إضافة إلى المفضلة",
+    "close": "إيقاف وإغلاق المشغل",
+    "settings": "إعدادات المشغل"
+  },
+  "globe": {
+    "heroTitle": "الراديو، كوكبًا بعد كوكب",
+    "heroSubtitle": "{countries} دولة تبث مباشرة الآن — انقر على علامة للاستماع",
+    "stationCount": "{count, plural, one {# محطة} other {# محطة}}",
+    "cta": "استكشف المحطات ←"
+  },
+  "country": {
+    "metaTitle": "محطات راديو مباشرة من {country} — استمع مجانًا عبر الإنترنت",
+    "metaDescription": "استمع إلى الراديو المباشر من {country}. تصفح جميع المحطات التي تبث من {country} واستمع إليها مجانًا في متصفحك.",
+    "breadcrumbHome": "الرئيسية",
+    "heading": "محطات الراديو في {country}",
+    "subheading": "{count, plural, one {# محطة تبث مباشرة} other {# محطة تبث مباشرة}} الآن"
+  },
+  "genre": {
+    "metaTitle": "راديو {genre} — استمع مباشرة عبر الإنترنت",
+    "metaDescription": "استمع إلى محطات راديو {genre} من جميع أنحاء العالم، مباشرة ومجانًا في متصفحك.",
+    "breadcrumbHome": "الرئيسية",
+    "heading": "راديو {genre}",
+    "subheading": "{count, plural, one {# محطة} other {# محطة}} في هذا النوع"
+  },
+  "station": {
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — استمع مباشرة من {country}",
+    "metaDescription": "استمع إلى {station} عبر الإنترنت، مباشرة من {country}. بث مجاني بدون تحميل. {genre}",
+    "breadcrumbHome": "الرئيسية",
+    "description": "تبث {station} مباشرة من {country}. استمع مجانًا مباشرة في متصفحك دون تحميل أو تسجيل.",
+    "unknownLocation": "موقع غير محدد",
+    "visitHomepage": "زيارة موقع المحطة ↗"
+  },
+  "mix": {
+    "metaTitle": "تشكيلة {genre} — بث مختار",
+    "metaDescription": "تشكيلة مختارة من بث {genre}، مجانًا مباشرة في متصفحك.",
+    "breadcrumbHome": "الرئيسية",
+    "heading": "تشكيلة {genre}",
+    "subheading": "{count} بث مختار",
+    "source": "مختارة من أرشيف مجتمع m3u-radio-music-playlists"
+  }
+}

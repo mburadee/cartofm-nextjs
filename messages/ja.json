@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — 世界中のライブラジオを聴こう",
+    "description": "地球儀を回して国を選び、その国のラジオ局をライブで聴けます。数千局、190以上の国、ひとつのインタラクティブな地図。"
+  },
+  "nav": {
+    "live": "ライブ",
+    "favorites": "お気に入り",
+    "about": "このサイトについて"
+  },
+  "player": {
+    "play": "再生",
+    "pause": "一時停止",
+    "volume": "音量",
+    "favorite": "お気に入りに追加",
+    "close": "プレーヤーを停止して閉じる",
+    "settings": "プレーヤー設定"
+  },
+  "globe": {
+    "heroTitle": "ラジオで、世界をめぐる",
+    "heroSubtitle": "今、{countries}か国がライブ配信中 — マーカーをクリックして聴く",
+    "stationCount": "{count}局",
+    "cta": "局を探す →"
+  },
+  "country": {
+    "metaTitle": "{country}のライブラジオ局 — 無料でオンライン視聴",
+    "metaDescription": "{country}のラジオをライブで聴く。{country}から配信するすべてのオンライン局をブラウザで無料視聴。",
+    "breadcrumbHome": "ホーム",
+    "heading": "{country}のラジオ局",
+    "subheading": "現在{count}局がライブ配信中"
+  },
+  "genre": {
+    "metaTitle": "{genre}ラジオ — オンラインでライブ視聴",
+    "metaDescription": "世界中の{genre}ラジオ局をブラウザでライブ・無料視聴。",
+    "breadcrumbHome": "ホーム",
+    "heading": "{genre}ラジオ",
+    "subheading": "このジャンルに{count}局"
+  },
+  "station": {
+    "play": "再生",
+    "pause": "一時停止"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — {country}からライブ視聴",
+    "metaDescription": "{station}をオンラインで、{country}からライブ視聴。無料配信、ダウンロード不要。{genre}",
+    "breadcrumbHome": "ホーム",
+    "description": "{station}は{country}からライブ配信中。ダウンロードや登録なしで、ブラウザで直接無料視聴できます。",
+    "unknownLocation": "非公開の場所",
+    "visitHomepage": "局のウェブサイトを見る ↗"
+  },
+  "mix": {
+    "metaTitle": "{genre}ミックス — 厳選ストリーム",
+    "metaDescription": "厳選された{genre}ストリームのミックスを、ブラウザで無料視聴。",
+    "breadcrumbHome": "ホーム",
+    "heading": "{genre}ミックス",
+    "subheading": "{count}件の厳選ストリーム",
+    "source": "m3u-radio-music-playlists コミュニティアーカイブより厳選"
+  }
+}

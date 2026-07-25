@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — दुनिया के हर देश का लाइव रेडियो सुनें",
+    "description": "ग्लोब घुमाएँ, कोई देश चुनें, और उसके रेडियो स्टेशन सीधे सुनें। हज़ारों स्टेशन, 190+ देश, एक इंटरैक्टिव मैप।"
+  },
+  "nav": {
+    "live": "लाइव",
+    "favorites": "पसंदीदा",
+    "about": "जानकारी"
+  },
+  "player": {
+    "play": "चलाएँ",
+    "pause": "रोकें",
+    "volume": "आवाज़",
+    "favorite": "पसंदीदा में जोड़ें",
+    "close": "प्लेयर बंद करें",
+    "settings": "प्लेयर सेटिंग्स"
+  },
+  "globe": {
+    "heroTitle": "रेडियो, एक-एक देश करके",
+    "heroSubtitle": "{countries} देश अभी लाइव प्रसारण कर रहे हैं — सुनने के लिए मार्कर पर क्लिक करें",
+    "stationCount": "{count, plural, one {# स्टेशन} other {# स्टेशन}}",
+    "cta": "स्टेशन देखें →"
+  },
+  "country": {
+    "metaTitle": "{country} के लाइव रेडियो स्टेशन — मुफ़्त ऑनलाइन सुनें",
+    "metaDescription": "{country} का लाइव रेडियो सुनें। {country} से प्रसारण करने वाले सभी ऑनलाइन स्टेशन देखें और अपने ब्राउज़र में मुफ़्त सुनें।",
+    "breadcrumbHome": "होम",
+    "heading": "{country} के रेडियो स्टेशन",
+    "subheading": "अभी {count, plural, one {# स्टेशन} other {# स्टेशन}} लाइव प्रसारण कर रहे हैं"
+  },
+  "genre": {
+    "metaTitle": "{genre} रेडियो — ऑनलाइन लाइव सुनें",
+    "metaDescription": "दुनिया भर के {genre} रेडियो स्टेशन अपने ब्राउज़र में लाइव और मुफ़्त सुनें।",
+    "breadcrumbHome": "होम",
+    "heading": "{genre} रेडियो",
+    "subheading": "इस श्रेणी में {count, plural, one {# स्टेशन} other {# स्टेशन}}"
+  },
+  "station": {
+    "play": "चलाएँ",
+    "pause": "रोकें"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — {country} से लाइव सुनें",
+    "metaDescription": "{station} को ऑनलाइन, {country} से लाइव सुनें। मुफ़्त स्ट्रीमिंग, डाउनलोड की ज़रूरत नहीं। {genre}",
+    "breadcrumbHome": "होम",
+    "description": "{station}, {country} से लाइव प्रसारण करता है। बिना डाउनलोड या साइन-अप के, सीधे अपने ब्राउज़र में मुफ़्त सुनें।",
+    "unknownLocation": "एक अज्ञात स्थान",
+    "visitHomepage": "स्टेशन की वेबसाइट देखें ↗"
+  },
+  "mix": {
+    "metaTitle": "{genre} मिक्स — चुनिंदा स्ट्रीम",
+    "metaDescription": "{genre} स्ट्रीम्स का चुनिंदा मिक्स, अपने ब्राउज़र में मुफ़्त सुनें।",
+    "breadcrumbHome": "होम",
+    "heading": "{genre} मिक्स",
+    "subheading": "{count} चुनिंदा स्ट्रीम",
+    "source": "m3u-radio-music-playlists कम्युनिटी आर्काइव से चुना गया"
+  }
+}

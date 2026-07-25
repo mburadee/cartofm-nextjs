@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — слушайте радио из любой страны мира в прямом эфире",
+    "description": "Вращайте глобус, выбирайте страну и слушайте её радиостанции в прямом эфире. Тысячи станций, более 190 стран, одна интерактивная карта."
+  },
+  "nav": {
+    "live": "В ЭФИРЕ",
+    "favorites": "Избранное",
+    "about": "О сервисе"
+  },
+  "player": {
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "volume": "Громкость",
+    "favorite": "Добавить в избранное",
+    "close": "Остановить и закрыть плеер",
+    "settings": "Настройки плеера"
+  },
+  "globe": {
+    "heroTitle": "Радио, планета за планетой",
+    "heroSubtitle": "{countries} стран вещают прямо сейчас — нажмите на метку, чтобы слушать",
+    "stationCount": "{count, plural, one {# станция} few {# станции} many {# станций} other {# станции}}",
+    "cta": "Смотреть станции →"
+  },
+  "country": {
+    "metaTitle": "Радиостанции {country} в прямом эфире — слушать бесплатно",
+    "metaDescription": "Слушайте радио {country} в прямом эфире. Все онлайн-станции, вещающие из {country}, бесплатно в браузере.",
+    "breadcrumbHome": "Главная",
+    "heading": "Радиостанции: {country}",
+    "subheading": "{count, plural, one {# станция в эфире} few {# станции в эфире} many {# станций в эфире} other {# станции в эфире}} прямо сейчас"
+  },
+  "genre": {
+    "metaTitle": "Радио {genre} — слушать онлайн бесплатно",
+    "metaDescription": "Слушайте радиостанции жанра {genre} со всего мира бесплатно в браузере.",
+    "breadcrumbHome": "Главная",
+    "heading": "Радио: {genre}",
+    "subheading": "{count, plural, one {# станция} few {# станции} many {# станций} other {# станции}} в этом жанре"
+  },
+  "station": {
+    "play": "Воспроизвести",
+    "pause": "Пауза"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — слушать в прямом эфире из {country}",
+    "metaDescription": "Слушайте {station} онлайн, в прямом эфире из {country}. Бесплатный стрим без загрузок. {genre}",
+    "breadcrumbHome": "Главная",
+    "description": "{station} вещает в прямом эфире из {country}. Слушайте бесплатно прямо в браузере — без загрузок и регистрации.",
+    "unknownLocation": "не указано местоположение",
+    "visitHomepage": "Перейти на сайт станции ↗"
+  },
+  "mix": {
+    "metaTitle": "Подборка {genre} — Отобранные Потоки",
+    "metaDescription": "Подборка потоков {genre}, бесплатно прямо в браузере.",
+    "breadcrumbHome": "Главная",
+    "heading": "Подборка: {genre}",
+    "subheading": "{count} отобранных потоков",
+    "source": "Отобрано из архива сообщества m3u-radio-music-playlists"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — Ouça rádio ao vivo de todos os países do mundo",
+    "description": "Gire o globo, escolha um país e ouça as rádios em tempo real. Milhares de estações, mais de 190 países, um mapa interativo."
+  },
+  "nav": {
+    "live": "AO VIVO",
+    "favorites": "Favoritos",
+    "about": "Sobre"
+  },
+  "player": {
+    "play": "Reproduzir",
+    "pause": "Pausar",
+    "volume": "Volume",
+    "favorite": "Adicionar aos favoritos",
+    "close": "Parar e fechar o player",
+    "settings": "Configurações do player"
+  },
+  "globe": {
+    "heroTitle": "Rádio, um planeta de cada vez",
+    "heroSubtitle": "{countries} países transmitindo ao vivo agora — clique num marcador para ouvir",
+    "stationCount": "{count, plural, one {# estação} other {# estações}}",
+    "cta": "Explorar estações →"
+  },
+  "country": {
+    "metaTitle": "Rádios ao Vivo em {country} — Ouça Grátis Online",
+    "metaDescription": "Ouça rádio ao vivo de {country}. Navegue por todas as estações online que transmitem de {country} e sintonize grátis no seu navegador.",
+    "breadcrumbHome": "Início",
+    "heading": "Estações de rádio em {country}",
+    "subheading": "{count, plural, one {# estação ao vivo} other {# estações ao vivo}} transmitindo agora"
+  },
+  "genre": {
+    "metaTitle": "Rádio de {genre} — Ouça ao Vivo Online",
+    "metaDescription": "Ouça estações de rádio de {genre} do mundo todo, ao vivo e grátis no seu navegador.",
+    "breadcrumbHome": "Início",
+    "heading": "Rádio de {genre}",
+    "subheading": "{count, plural, one {# estação} other {# estações}} neste gênero"
+  },
+  "station": {
+    "play": "Reproduzir",
+    "pause": "Pausar"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — Ouça ao Vivo de {country}",
+    "metaDescription": "Ouça {station} online, ao vivo de {country}. Streaming grátis, sem necessidade de download. {genre}",
+    "breadcrumbHome": "Início",
+    "description": "{station} transmite ao vivo de {country}. Sintonize grátis, diretamente no seu navegador, sem downloads ou cadastro.",
+    "unknownLocation": "um local não divulgado",
+    "visitHomepage": "Visitar site da estação ↗"
+  },
+  "mix": {
+    "metaTitle": "Mix de {genre} — Transmissões Selecionadas",
+    "metaDescription": "Uma seleção de transmissões de {genre}, grátis direto no seu navegador.",
+    "breadcrumbHome": "Início",
+    "heading": "Mix de {genre}",
+    "subheading": "{count} transmissões selecionadas",
+    "source": "Selecionado do arquivo comunitário m3u-radio-music-playlists"
+  }
+}

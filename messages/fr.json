@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — Écoutez la radio en direct de tous les pays du monde",
+    "description": "Faites tourner le globe, choisissez un pays et écoutez ses stations de radio en direct. Des milliers de stations, plus de 190 pays, une carte interactive."
+  },
+  "nav": {
+    "live": "EN DIRECT",
+    "favorites": "Favoris",
+    "about": "À propos"
+  },
+  "player": {
+    "play": "Lecture",
+    "pause": "Pause",
+    "volume": "Volume",
+    "favorite": "Ajouter aux favoris",
+    "close": "Arrêter et fermer le lecteur",
+    "settings": "Paramètres du lecteur"
+  },
+  "globe": {
+    "heroTitle": "La radio, planète par planète",
+    "heroSubtitle": "{countries} pays diffusent en direct en ce moment — cliquez sur un repère pour écouter",
+    "stationCount": "{count, plural, one {# station} other {# stations}}",
+    "cta": "Explorer les stations →"
+  },
+  "country": {
+    "metaTitle": "Radios en Direct de {country} — Écoute Gratuite en Ligne",
+    "metaDescription": "Écoutez la radio en direct de {country}. Parcourez toutes les stations en ligne diffusant depuis {country} et écoutez-les gratuitement dans votre navigateur.",
+    "breadcrumbHome": "Accueil",
+    "heading": "Stations de radio en {country}",
+    "subheading": "{count, plural, one {# station en direct} other {# stations en direct}} diffusant actuellement"
+  },
+  "genre": {
+    "metaTitle": "Radio {genre} — Écoute en Direct en Ligne",
+    "metaDescription": "Écoutez des stations de radio {genre} du monde entier, en direct et gratuitement dans votre navigateur.",
+    "breadcrumbHome": "Accueil",
+    "heading": "Radio {genre}",
+    "subheading": "{count, plural, one {# station} other {# stations}} dans ce genre"
+  },
+  "station": {
+    "play": "Lecture",
+    "pause": "Pause"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — Écoute en Direct depuis {country}",
+    "metaDescription": "Écoutez {station} en ligne, en direct depuis {country}. Streaming gratuit, sans téléchargement. {genre}",
+    "breadcrumbHome": "Accueil",
+    "description": "{station} diffuse en direct depuis {country}. Écoutez gratuitement, directement dans votre navigateur, sans téléchargement ni inscription.",
+    "unknownLocation": "un lieu non précisé",
+    "visitHomepage": "Visiter le site de la station ↗"
+  },
+  "mix": {
+    "metaTitle": "Mix {genre} — Flux Sélectionnés",
+    "metaDescription": "Une sélection de flux {genre}, gratuits directement dans votre navigateur.",
+    "breadcrumbHome": "Accueil",
+    "heading": "Mix {genre}",
+    "subheading": "{count} flux sélectionnés",
+    "source": "Sélectionné depuis les archives communautaires m3u-radio-music-playlists"
+  }
+}

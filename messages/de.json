@@ -1,0 +1,60 @@
+{
+  "site": {
+    "brand": "Globecast",
+    "title": "Globecast — Live-Radio aus jedem Land der Welt hören",
+    "description": "Drehe den Globus, wähle ein Land und höre seine Radiosender live. Tausende Sender, über 190 Länder, eine interaktive Karte."
+  },
+  "nav": {
+    "live": "LIVE",
+    "favorites": "Favoriten",
+    "about": "Über uns"
+  },
+  "player": {
+    "play": "Abspielen",
+    "pause": "Pause",
+    "volume": "Lautstärke",
+    "favorite": "Zu Favoriten hinzufügen",
+    "close": "Player stoppen und schließen",
+    "settings": "Player-Einstellungen"
+  },
+  "globe": {
+    "heroTitle": "Radio, ein Planet nach dem anderen",
+    "heroSubtitle": "{countries} Länder senden gerade live — klicke auf eine Markierung zum Hören",
+    "stationCount": "{count, plural, one {# Sender} other {# Sender}}",
+    "cta": "Sender entdecken →"
+  },
+  "country": {
+    "metaTitle": "Live-Radiosender aus {country} — Kostenlos Online Hören",
+    "metaDescription": "Höre Live-Radio aus {country}. Durchsuche alle Online-Sender aus {country} und schalte sie kostenlos im Browser ein.",
+    "breadcrumbHome": "Startseite",
+    "heading": "Radiosender in {country}",
+    "subheading": "{count, plural, one {# Live-Sender} other {# Live-Sender}} senden gerade"
+  },
+  "genre": {
+    "metaTitle": "{genre}-Radio — Live Online Hören",
+    "metaDescription": "Höre {genre}-Radiosender aus aller Welt, live und kostenlos im Browser.",
+    "breadcrumbHome": "Startseite",
+    "heading": "{genre}-Radio",
+    "subheading": "{count, plural, one {# Sender} other {# Sender}} in diesem Genre"
+  },
+  "station": {
+    "play": "Abspielen",
+    "pause": "Pause"
+  },
+  "stationPage": {
+    "metaTitle": "{station} — Live aus {country} Hören",
+    "metaDescription": "Höre {station} online, live aus {country}. Kostenloses Streaming ohne Download. {genre}",
+    "breadcrumbHome": "Startseite",
+    "description": "{station} sendet live aus {country}. Kostenlos einschalten, direkt im Browser, ohne Download oder Anmeldung.",
+    "unknownLocation": "einem nicht angegebenen Ort",
+    "visitHomepage": "Sender-Website besuchen ↗"
+  },
+  "mix": {
+    "metaTitle": "{genre}-Mix — Ausgewählte Streams",
+    "metaDescription": "Eine handverlesene Auswahl an {genre}-Streams, kostenlos direkt im Browser.",
+    "breadcrumbHome": "Startseite",
+    "heading": "{genre}-Mix",
+    "subheading": "{count} ausgewählte Streams",
+    "source": "Zusammengestellt aus dem m3u-radio-music-playlists-Community-Archiv"
+  }
+}
