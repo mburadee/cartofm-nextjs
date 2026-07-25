@@ -23,9 +23,18 @@ const config: Config = {
       backgroundImage: {
         'radial-glow': 'radial-gradient(circle at 50% 30%, rgba(34,211,200,0.10), transparent 60%)'
       },
+      keyframes: {
+        'pulse-slow': {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.5' }
+        },
+        'spin-slow': {
+          'to': { transform: 'rotate(360deg)' }
+        }
+      },
       animation: {
-        pulse-slow: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'spin-slow': 'spin 3s linear infinite'
+        'pulse-slow': 'pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'spin-slow': 'spin-slow 3s linear infinite'
       }
     }
   },
