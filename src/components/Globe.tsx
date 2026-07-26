@@ -17,7 +17,6 @@ interface GlobeProps {
 }
 
 export default function Globe({ speckles, focusedStationId }: GlobeProps) {
-  const router = useRouter();
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [size, setSize] = useState({ width: 800, height: 800 });
@@ -62,6 +61,14 @@ export default function Globe({ speckles, focusedStationId }: GlobeProps) {
       const controls = globeRef.current?.controls();
       if (controls) controls.autoRotate = false;
       globeRef.current?.pointOfView({ lat: s.lat, lng: s.lng, altitude: 1.0 }, 1000);
+      
+      // Trigger autoplay
+      if (typeof window !== 'undefined') {
+        const playEvent = new CustomEvent('station-selected', { 
+          detail: { station: s } 
+        });
+        window.dispatchEvent(playEvent);
+      }
     },
     []
   );
