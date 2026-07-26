@@ -5,6 +5,7 @@ import { Play, Pause, Volume2, VolumeX, X, Heart, SlidersHorizontal } from 'luci
 import { usePlayerStore } from '@/store/player-store';
 import { registerClick } from '@/lib/radio-browser';
 import { useTranslations } from 'next-intl';
+import { AudioVisualizer } from './AudioVisualizer';
 
 export default function PlayerBar() {
   const t = useTranslations('player');
@@ -81,6 +82,11 @@ export default function PlayerBar() {
             <Play size={18} fill="currentColor" className="ml-0.5" />
           )}
         </button>
+
+        {/* Audio Visualizer */}
+        <div className="hidden flex-1 max-w-xs lg:block">
+          <AudioVisualizer audioRef={audioRef} isPlaying={isPlaying} barCount={32} height={32} />
+        </div>
 
         <div className="hidden items-center gap-2 sm:flex">
           {volume === 0 ? <VolumeX size={16} className="text-mist" /> : <Volume2 size={16} className="text-mist" />}
