@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
 import Header from '@/components/Header';
 import Globe from '@/components/Globe';
 import { COUNTRIES } from '@/data/countries';
@@ -9,7 +8,9 @@ import { getCountryStats, getStationsByCountryCode } from '@/lib/radio-browser';
 import { stationsToSpeckles, type StationSpeckle } from '@/lib/station-speckles';
 
 export default function HomePage() {
-  const t = useTranslations('globe');
+  // Static hero text - no need for translation hook in client component
+  const heroTitle = 'Radio, one planet at a time';
+  const heroSubtitle = `139 countries broadcasting live right now — click a marker to listen`;
   const [speckles, setSpeckles] = useState<StationSpeckle[]>([]);
   const [totalListeners, setTotalListeners] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -72,8 +73,8 @@ export default function HomePage() {
       </div>
 
       <div className="pointer-events-none absolute left-6 top-24 z-20 max-w-sm">
-        <h1 className="font-display text-2xl font-bold text-white sm:text-3xl">{t('heroTitle')}</h1>
-        <p className="mt-2 text-sm text-mist">{t('heroSubtitle', { countries: COUNTRIES.length })}</p>
+        <h1 className="font-display text-2xl font-bold text-white sm:text-3xl">{heroTitle}</h1>
+        <p className="mt-2 text-sm text-mist">{heroSubtitle}</p>
       </div>
     </main>
   );
