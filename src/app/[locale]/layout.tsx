@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google';
 import { locales, isRtl, type Locale } from '@/i18n/config';
@@ -16,6 +16,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'site' });
 
   const languages = Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}`]));
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   if (!locales.includes(locale as Locale)) notFound();
   const messages = await getMessages();
 

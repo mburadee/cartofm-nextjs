@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import StationRow from '@/components/StationRow';
 import { Link } from '@/i18n/navigation';
@@ -25,6 +25,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale, country } }: Props): Promise<Metadata> {
+  setRequestLocale(locale);
   const meta = COUNTRY_BY_SLUG[country];
   if (!meta) return {};
   const t = await getTranslations({ locale, namespace: 'country' });
@@ -41,6 +42,7 @@ export async function generateMetadata({ params: { locale, country } }: Props): 
 }
 
 export default async function CountryPage({ params: { locale, country } }: Props) {
+  setRequestLocale(locale);
   const meta = COUNTRY_BY_SLUG[country];
   if (!meta) notFound();
 

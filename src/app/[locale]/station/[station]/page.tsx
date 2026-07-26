@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Radio, Globe as GlobeIcon, Languages } from 'lucide-react';
 import Header from '@/components/Header';
 import StationHeroPlay from '@/components/StationHeroPlay';
@@ -17,6 +17,7 @@ interface Props {
 }
 
 export async function generateMetadata({ params: { locale, station } }: Props): Promise<Metadata> {
+  setRequestLocale(locale);
   const uuid = uuidFromStationSlug(station);
   if (!uuid) return {};
   const data = await getStationByUuid(uuid).catch(() => null);
@@ -36,6 +37,7 @@ export async function generateMetadata({ params: { locale, station } }: Props): 
 }
 
 export default async function StationPage({ params: { locale, station } }: Props) {
+  setRequestLocale(locale);
   const uuid = uuidFromStationSlug(station);
   if (!uuid) notFound();
 

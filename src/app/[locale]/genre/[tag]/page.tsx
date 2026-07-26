@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import StationRow from '@/components/StationRow';
 import { Link } from '@/i18n/navigation';
@@ -20,6 +20,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale, tag } }: Props): Promise<Metadata> {
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'genre' });
   const decoded = decodeURIComponent(tag);
   const title = t('metaTitle', { genre: decoded });
@@ -30,6 +31,7 @@ export async function generateMetadata({ params: { locale, tag } }: Props): Prom
 }
 
 export default async function GenrePage({ params: { locale, tag } }: Props) {
+  setRequestLocale(locale);
   const decoded = decodeURIComponent(tag);
   const [t, stations] = await Promise.all([
     getTranslations({ locale, namespace: 'genre' }),

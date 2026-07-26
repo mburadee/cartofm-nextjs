@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import MixTrackRow from '@/components/MixTrackRow';
 import { Link } from '@/i18n/navigation';
@@ -19,6 +19,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale, genre } }: Props): Promise<Metadata> {
+  setRequestLocale(locale);
   if (!CURATED_MIXES.includes(genre as any)) return {};
   const t = await getTranslations({ locale, namespace: 'mix' });
   const label = genre.replace(/_/g, ' ');
@@ -30,6 +31,7 @@ export async function generateMetadata({ params: { locale, genre } }: Props): Pr
 }
 
 export default async function MixPage({ params: { locale, genre } }: Props) {
+  setRequestLocale(locale);
   if (!CURATED_MIXES.includes(genre as any)) notFound();
 
   const [t, tracks] = await Promise.all([
